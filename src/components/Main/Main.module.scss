@@ -1,0 +1,12 @@
+.main {
+   width: 100%;
+
+   .maimWrapper {
+      display: flex;
+      justify-content: center;
+
+      .image {
+         margin: 0 30px 30px 0;
+      }
+   }
+}

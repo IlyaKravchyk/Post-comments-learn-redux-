@@ -1,0 +1,28 @@
+.comment {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: center;
+   align-items: center;
+
+   .deleteComment {
+      font-size: 20px;
+      margin-left: 10px;
+      transition: .3s;
+      cursor: pointer;
+   }
+
+   .deleteComment:hover {
+      scale: 1.05;
+      color: red;
+      transition: .2s
+   }
+
+   .input {
+      padding: 5px;
+      font-size: 18px;
+      outline: none;
+      border-radius: 10px;
+      border: 1px solid #363636;
+      margin-bottom: 5px;
+   }
+}

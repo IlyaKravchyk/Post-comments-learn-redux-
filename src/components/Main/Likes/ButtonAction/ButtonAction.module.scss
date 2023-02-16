@@ -1,0 +1,14 @@
+.action {
+   display: flex;
+   justify-content: start;
+   align-items: center;
+
+   .buttonAction {
+      font-size: 28px;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      transition: .3s;
+   }
+
+}
